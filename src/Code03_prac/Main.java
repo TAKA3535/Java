@@ -44,14 +44,22 @@ public class Main {
 //練習６
 	public static void main(String[] args) {
 		System.out.println("数あてゲーム");
-		int ans = new java.util.Random().nextInt(10);
-		
+		int ran = new java.util.Random().nextInt(10);
+		System.out.println(ran);
+//		for () はチャレンジできる回数
 		for (int i = 0; i < 5; i++) {
 			System.out.println("0～9を入力してください");
-			int num = new java.util.Scanner(System.in).nextInt();
-		
+			int input = new java.util.Scanner(System.in).nextInt();
+			if (ran == input) {
+				System.out.println("アタリ");
+				break;
+			} else {
+				System.out.println("ハズレ");
+			}
 		}
+		System.out.println("ゲームを終了します。");
 	}
+}
 
 	
 	
