@@ -1,7 +1,7 @@
 package Code05_10;
 
 public class Main {
-	//オーバーロード()引数の型が異なる場合 P206
+	// P206オーバーロード()引数の型が異なる場合, 3種の異なる仮引数を用意
 	//1つ目のaddメソッド
 	public static int add(int x, int y) {
 		return x + y;
