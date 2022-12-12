@@ -13,6 +13,7 @@ public class Main {
 		intArray(array);
 //		arrayの全要素を出力
 		for (int i : array) {
+//		for (int i = 0; i < array.length; i++) { 
 			System.out.println(i);
 		}	
 	}

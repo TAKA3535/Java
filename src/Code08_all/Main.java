@@ -1,11 +1,11 @@
-package Code08_13;
-//仮想世界に勇者を生み出すプログラム
+package Code08_all;
+//仮想世界に勇者を生み出すプログラム,「実行用クラス」
 public class Main {
 
 	public static void main(String[] args) {
-		// 1.勇者を生成
+		// 1.勇者(インスタンス)を生成、「クラス名 変数名 = new クラス名();」
 		Hero h = new Hero();
-		//2.フィールドに初期値をセット
+		//2.フィールドに初期値をセット、フィールドへの値を代入「変数名.フィールド名 = 値;」
 		h.name = "ミナト";	//変数hのnameに代入
 		h.hp = 100;			//変数hのhpに代入
 		
@@ -23,5 +23,8 @@ public class Main {
 		h.slip();	//転べ
 		h.sit(25);	//25秒座れ
 		h.run();	//逃げろ
+		h.sleep();
+		m1.run();
+		m2.run();
 	}
 }

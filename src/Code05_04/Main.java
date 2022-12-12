@@ -4,7 +4,7 @@ public class Main {
 	//引数　P193
 	public static void main(String[] args) {
 		System.out.println("メソッドを呼び出しています");
-		//()の中の値を渡している		
+		//()の中の値を渡している,値渡し	
 		hello("もり");
 		hello("たか");
 		hello("ひろ");
