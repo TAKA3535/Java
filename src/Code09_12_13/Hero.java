@@ -14,3 +14,4 @@ public class Hero {
 		this.name = "カヒロ";	//←名前設定
 	}
 }
+//コンストラクタ：
